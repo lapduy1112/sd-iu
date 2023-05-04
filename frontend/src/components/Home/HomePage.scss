@@ -1,0 +1,29 @@
+.homepage-container {
+  background-color: black;
+  position: relative;
+  padding-top: 56%;
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .btn-volume {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    right: 10%;
+    top: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 6px;
+    color: #bbb;
+    border: #fff solid 1px;
+    transition: all 0.3 ease;
+    transform: scale(1);
+    &:hover {
+      transform: scale(1.2);
+      color: #fff;
+      background-color: rgba(211, 211, 211, 0.18);
+    }
+  }
+}
